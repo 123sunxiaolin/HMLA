@@ -1,18 +1,21 @@
 //
-//  ViewController.swift
+//  HealthViewController.swift
 //  HMLA
 //
-//  Created by Sunxiaolin on 17/1/22.
+//  Created by Sunxiaolin on 17/1/23.
 //  Copyright © 2017年 com.jack.lin. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HealthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "健康"
+        self.view.backgroundColor = UIColor.blueColor()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
