@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (0.19.1)
+  - URLNavigator (0.7.2)
+
+DEPENDENCIES:
+  - SnapKit (~> 0.19.0)
+  - URLNavigator (~> 0.7)
+
+SPEC CHECKSUMS:
+  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+  URLNavigator: 5a2df5512bdf5f5ebfa97d57f78002e96f490053
+
+PODFILE CHECKSUM: fad62f0049bdb4bb7cf26bd39f5ffd3348cdfc70
+
+COCOAPODS: 1.1.1

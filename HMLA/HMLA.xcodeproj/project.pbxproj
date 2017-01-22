@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2B9B1DCA452B6A9EF874739 /* Pods_HMLA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218CF2F78D02E76C2C4A9EA4 /* Pods_HMLA.framework */; };
 		DDF7600B1E35077B00951595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7600A1E35077B00951595 /* AppDelegate.swift */; };
 		DDF7600D1E35077B00951595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7600C1E35077B00951595 /* ViewController.swift */; };
 		DDF760101E35077B00951595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF7600E1E35077B00951595 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		218CF2F78D02E76C2C4A9EA4 /* Pods_HMLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMLA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F71F8F49D2F246C82CF7032 /* Pods-HMLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMLA/Pods-HMLA.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF760071E35077B00951595 /* HMLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF7600A1E35077B00951595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDF7600C1E35077B00951595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		DDF760261E35077C00951595 /* HMLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMLAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF7602A1E35077C00951595 /* HMLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMLAUITests.swift; sourceTree = "<group>"; };
 		DDF7602C1E35077C00951595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE52F8F943A02A57185B7EFE /* Pods-HMLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMLA/Pods-HMLA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B9B1DCA452B6A9EF874739 /* Pods_HMLA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BC850D1208180368BFB915B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218CF2F78D02E76C2C4A9EA4 /* Pods_HMLA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63CE1225869262982E54A011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F71F8F49D2F246C82CF7032 /* Pods-HMLA.debug.xcconfig */,
+				DE52F8F943A02A57185B7EFE /* Pods-HMLA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DDF75FFE1E35077B00951595 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				DDF7601E1E35077C00951595 /* HMLATests */,
 				DDF760291E35077C00951595 /* HMLAUITests */,
 				DDF760081E35077B00951595 /* Products */,
+				63CE1225869262982E54A011 /* Pods */,
+				5BC850D1208180368BFB915B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDF7602F1E35077C00951595 /* Build configuration list for PBXNativeTarget "HMLA" */;
 			buildPhases = (
+				E45FD2039A8566E090910131 /* [CP] Check Pods Manifest.lock */,
 				DDF760031E35077B00951595 /* Sources */,
 				DDF760041E35077B00951595 /* Frameworks */,
 				DDF760051E35077B00951595 /* Resources */,
+				40A32964BEEB259F332D368F /* [CP] Embed Pods Frameworks */,
+				5BC7C9B754E4BCD0D569416D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40A32964BEEB259F332D368F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HMLA/Pods-HMLA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC7C9B754E4BCD0D569416D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HMLA/Pods-HMLA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45FD2039A8566E090910131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDF760031E35077B00951595 /* Sources */ = {
@@ -397,6 +472,7 @@
 		};
 		DDF760301E35077C00951595 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F71F8F49D2F246C82CF7032 /* Pods-HMLA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMLA/Info.plist;
@@ -408,6 +484,7 @@
 		};
 		DDF760311E35077C00951595 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE52F8F943A02A57185B7EFE /* Pods-HMLA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMLA/Info.plist;

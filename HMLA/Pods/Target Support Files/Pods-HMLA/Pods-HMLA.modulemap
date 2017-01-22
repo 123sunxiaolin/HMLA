@@ -1,0 +1,6 @@
+framework module Pods_HMLA {
+  umbrella header "Pods-HMLA-umbrella.h"
+
+  export *
+  module * { export * }
+}
