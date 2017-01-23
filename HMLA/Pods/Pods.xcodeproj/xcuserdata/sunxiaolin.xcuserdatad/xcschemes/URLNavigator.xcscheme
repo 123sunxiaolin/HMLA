@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F9BFBEB5EC61CDC7453611C1957B8193'
+               BlueprintIdentifier = '31CA9B151A1FF9374951E6F0A90C4F80'
                BlueprintName = 'URLNavigator'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'URLNavigator.framework'>
