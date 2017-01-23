@@ -20,6 +20,10 @@ class HealthView: UIView {
     
     private var dataArray = []
     
+    internal var completionHandler: (NSIndexPath) -> () = {_ in 
+        
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -74,5 +78,6 @@ extension HealthView: UITableViewDataSource{
 extension HealthView: UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.completionHandler(indexPath)
     }
 }

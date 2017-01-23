@@ -29,6 +29,10 @@ class HealthViewController: UIViewController {
         healthView.backgroundColor = UIColor.BackColor()
         self.view.addSubview(self.healthView)
         healthView.setDataArray(with: dataArray)
+        healthView.completionHandler = { (index: NSIndexPath)  in
+            print(index.row)
+            
+        }
     }
     
     override func viewDidLayoutSubviews() {
