@@ -14,11 +14,14 @@
 		DDF760151E35077B00951595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF760131E35077B00951595 /* LaunchScreen.storyboard */; };
 		DDF760201E35077C00951595 /* HMLATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7601F1E35077C00951595 /* HMLATests.swift */; };
 		DDF7602B1E35077C00951595 /* HMLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7602A1E35077C00951595 /* HMLAUITests.swift */; };
-		DDF760391E351A2200951595 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760381E351A2200951595 /* HomeViewController.swift */; };
-		DDF7603B1E351B9500951595 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7603A1E351B9500951595 /* HealthViewController.swift */; };
-		DDF7603D1E351BBF00951595 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7603C1E351BBE00951595 /* MedicineViewController.swift */; };
-		DDF7603F1E351BD300951595 /* LifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7603E1E351BD300951595 /* LifeViewController.swift */; };
-		DDF760411E351BEB00951595 /* AgricultureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760401E351BEB00951595 /* AgricultureViewController.swift */; };
+		DDF760491E35669900951595 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760481E35669900951595 /* UIColor.swift */; };
+		DDF7604B1E356B0900951595 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7604A1E356B0900951595 /* SwiftHEXColors.swift */; };
+		DDF7604E1E356CEE00951595 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7604D1E356CEE00951595 /* HomeViewController.swift */; };
+		DDF760501E356CF800951595 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF7604F1E356CF800951595 /* HealthViewController.swift */; };
+		DDF760521E356D0B00951595 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760511E356D0B00951595 /* MedicineViewController.swift */; };
+		DDF760541E356D1400951595 /* LifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760531E356D1400951595 /* LifeViewController.swift */; };
+		DDF760561E356D1A00951595 /* AgricultureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760551E356D1A00951595 /* AgricultureViewController.swift */; };
+		DDF760591E35751600951595 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF760581E35751600951595 /* HealthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +56,14 @@
 		DDF760261E35077C00951595 /* HMLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMLAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF7602A1E35077C00951595 /* HMLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMLAUITests.swift; sourceTree = "<group>"; };
 		DDF7602C1E35077C00951595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDF760381E351A2200951595 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		DDF7603A1E351B9500951595 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
-		DDF7603C1E351BBE00951595 /* MedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
-		DDF7603E1E351BD300951595 /* LifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeViewController.swift; sourceTree = "<group>"; };
-		DDF760401E351BEB00951595 /* AgricultureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgricultureViewController.swift; sourceTree = "<group>"; };
+		DDF760481E35669900951595 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Utils/UIColor.swift; sourceTree = "<group>"; };
+		DDF7604A1E356B0900951595 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Utils/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		DDF7604D1E356CEE00951595 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		DDF7604F1E356CF800951595 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthViewController.swift; path = ViewControllers/HealthViewController.swift; sourceTree = "<group>"; };
+		DDF760511E356D0B00951595 /* MedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicineViewController.swift; path = ViewControllers/MedicineViewController.swift; sourceTree = "<group>"; };
+		DDF760531E356D1400951595 /* LifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LifeViewController.swift; path = ViewControllers/LifeViewController.swift; sourceTree = "<group>"; };
+		DDF760551E356D1A00951595 /* AgricultureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgricultureViewController.swift; path = ViewControllers/AgricultureViewController.swift; sourceTree = "<group>"; };
+		DDF760581E35751600951595 /* HealthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
 		DE52F8F943A02A57185B7EFE /* Pods-HMLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMLA/Pods-HMLA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,11 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				DDF7600A1E35077B00951595 /* AppDelegate.swift */,
-				DDF760381E351A2200951595 /* HomeViewController.swift */,
-				DDF7603A1E351B9500951595 /* HealthViewController.swift */,
-				DDF7603C1E351BBE00951595 /* MedicineViewController.swift */,
-				DDF7603E1E351BD300951595 /* LifeViewController.swift */,
-				DDF760401E351BEB00951595 /* AgricultureViewController.swift */,
+				DDF760571E3574F400951595 /* View */,
+				DDF7604C1E356C7400951595 /* ViewControllers */,
+				DDF760441E35633B00951595 /* Utils */,
+				DDF760421E353F2D00951595 /* Models */,
 				DDF7600E1E35077B00951595 /* Main.storyboard */,
 				DDF760111E35077B00951595 /* Assets.xcassets */,
 				DDF760131E35077B00951595 /* LaunchScreen.storyboard */,
@@ -159,6 +164,42 @@
 				DDF7602C1E35077C00951595 /* Info.plist */,
 			);
 			path = HMLAUITests;
+			sourceTree = "<group>";
+		};
+		DDF760421E353F2D00951595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DDF760441E35633B00951595 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7604A1E356B0900951595 /* SwiftHEXColors.swift */,
+				DDF760481E35669900951595 /* UIColor.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DDF7604C1E356C7400951595 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7604D1E356CEE00951595 /* HomeViewController.swift */,
+				DDF7604F1E356CF800951595 /* HealthViewController.swift */,
+				DDF760511E356D0B00951595 /* MedicineViewController.swift */,
+				DDF760531E356D1400951595 /* LifeViewController.swift */,
+				DDF760551E356D1A00951595 /* AgricultureViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DDF760571E3574F400951595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF760581E35751600951595 /* HealthView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,12 +384,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF760411E351BEB00951595 /* AgricultureViewController.swift in Sources */,
+				DDF760561E356D1A00951595 /* AgricultureViewController.swift in Sources */,
+				DDF760521E356D0B00951595 /* MedicineViewController.swift in Sources */,
+				DDF760491E35669900951595 /* UIColor.swift in Sources */,
 				DDF7600B1E35077B00951595 /* AppDelegate.swift in Sources */,
-				DDF7603F1E351BD300951595 /* LifeViewController.swift in Sources */,
-				DDF7603B1E351B9500951595 /* HealthViewController.swift in Sources */,
-				DDF7603D1E351BBF00951595 /* MedicineViewController.swift in Sources */,
-				DDF760391E351A2200951595 /* HomeViewController.swift in Sources */,
+				DDF7604B1E356B0900951595 /* SwiftHEXColors.swift in Sources */,
+				DDF7604E1E356CEE00951595 /* HomeViewController.swift in Sources */,
+				DDF760591E35751600951595 /* HealthView.swift in Sources */,
+				DDF760501E356CF800951595 /* HealthViewController.swift in Sources */,
+				DDF760541E356D1400951595 /* LifeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

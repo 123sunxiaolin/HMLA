@@ -1,5 +1,5 @@
 //
-//  HealthViewController.swift
+//  MedicineViewController.swift
 //  HMLA
 //
 //  Created by Sunxiaolin on 17/1/23.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class HealthViewController: UIViewController {
+class MedicineViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.title = "健康"
-        self.view.backgroundColor = UIColor.blueColor()
 
     }
 
