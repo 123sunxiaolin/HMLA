@@ -30,8 +30,10 @@ class HealthViewController: UIViewController {
         self.view.addSubview(self.healthView)
         healthView.setDataArray(with: dataArray)
         healthView.completionHandler = { (index: NSIndexPath)  in
-            print(index.row)
-            
+            let detailVc = Detail2HealthViewController()
+            detailVc.title = self.dataArray[index.row]
+            detailVc.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(detailVc, animated: true)
         }
     }
     

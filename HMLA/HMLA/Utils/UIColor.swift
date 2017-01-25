@@ -19,4 +19,12 @@ extension UIColor{
         return UIColor(hexString: "#d7d7d7")!
     }
     
+    class func Color_666()-> UIColor{
+        return UIColor(hexString: "#666666")!
+    }
+    
+    class func Color_999()-> UIColor{
+        return UIColor(hexString: "#999999")!
+    }
+    
 }
