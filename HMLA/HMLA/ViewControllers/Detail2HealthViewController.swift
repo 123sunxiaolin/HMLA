@@ -29,8 +29,13 @@ class Detail2HealthViewController: UIViewController {
         super.viewDidLoad()
         self.view.addSubview(self.detailHealthView)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: self.activityIndicator)
-        
         onRequestClassify()
+        
+        // callBack
+        self.detailHealthView.completionHandler = { (index, aModel) in
+            
+            
+        }
     }
     
     override func viewDidLayoutSubviews() {

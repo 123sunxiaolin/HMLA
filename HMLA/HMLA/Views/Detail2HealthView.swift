@@ -21,6 +21,9 @@ class Detail2HealthView: UIView {
     }()
     
     private var dataArray = [HealthClassifyModel]()
+    
+    var completionHandler: (index: NSIndexPath, dataModel: HealthClassifyModel)->() = { _, _ in
+    }
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -70,6 +73,7 @@ extension Detail2HealthView: UITableViewDataSource{
 extension Detail2HealthView: UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
+        let aModel = self.dataArray[indexPath.row]
+         self.completionHandler(index: indexPath, dataModel: aModel)
     }
 }

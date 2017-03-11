@@ -10,6 +10,8 @@
 		B2B9B1DCA452B6A9EF874739 /* Pods_HMLA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218CF2F78D02E76C2C4A9EA4 /* Pods_HMLA.framework */; };
 		DD857E351E36E20F0042BBBB /* NavigationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD857E341E36E20F0042BBBB /* NavigationMap.swift */; };
 		DD857E371E36E3BD0042BBBB /* Detail2HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD857E361E36E3BD0042BBBB /* Detail2HealthViewController.swift */; };
+		DD9FE20F1E38E85C00C60E29 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FE20E1E38E85C00C60E29 /* InfoDetailViewController.swift */; };
+		DD9FE2111E38EB1900C60E29 /* InfoDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FE2101E38EB1900C60E29 /* InfoDetailModel.swift */; };
 		DDB352F11E37F2DF002FB980 /* Detail2HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB352F01E37F2DF002FB980 /* Detail2HealthView.swift */; };
 		DDB352F31E37F2F2002FB980 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB352F21E37F2F2002FB980 /* HealthView.swift */; };
 		DDB352F51E37F8BD002FB980 /* HealthClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB352F41E37F8BD002FB980 /* HealthClassifyModel.swift */; };
@@ -52,6 +54,8 @@
 		8F71F8F49D2F246C82CF7032 /* Pods-HMLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMLA/Pods-HMLA.debug.xcconfig"; sourceTree = "<group>"; };
 		DD857E341E36E20F0042BBBB /* NavigationMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationMap.swift; path = Utils/NavigationMap.swift; sourceTree = "<group>"; };
 		DD857E361E36E3BD0042BBBB /* Detail2HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Detail2HealthViewController.swift; path = ViewControllers/Detail2HealthViewController.swift; sourceTree = "<group>"; };
+		DD9FE20E1E38E85C00C60E29 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoDetailViewController.swift; path = ViewControllers/InfoDetailViewController.swift; sourceTree = "<group>"; };
+		DD9FE2101E38EB1900C60E29 /* InfoDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoDetailModel.swift; path = Models/InfoDetailModel.swift; sourceTree = "<group>"; };
 		DDB352F01E37F2DF002FB980 /* Detail2HealthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Detail2HealthView.swift; path = Views/Detail2HealthView.swift; sourceTree = "<group>"; };
 		DDB352F21E37F2F2002FB980 /* HealthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthView.swift; path = Views/HealthView.swift; sourceTree = "<group>"; };
 		DDB352F41E37F8BD002FB980 /* HealthClassifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthClassifyModel.swift; path = Models/HealthClassifyModel.swift; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				DDB352F41E37F8BD002FB980 /* HealthClassifyModel.swift */,
+				DD9FE2101E38EB1900C60E29 /* InfoDetailModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				DDF760531E356D1400951595 /* LifeViewController.swift */,
 				DDF760551E356D1A00951595 /* AgricultureViewController.swift */,
 				DD857E361E36E3BD0042BBBB /* Detail2HealthViewController.swift */,
+				DD9FE20E1E38E85C00C60E29 /* InfoDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -403,12 +409,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB352F31E37F2F2002FB980 /* HealthView.swift in Sources */,
+				DD9FE2111E38EB1900C60E29 /* InfoDetailModel.swift in Sources */,
 				DDF760561E356D1A00951595 /* AgricultureViewController.swift in Sources */,
 				DDF760521E356D0B00951595 /* MedicineViewController.swift in Sources */,
 				DDF760491E35669900951595 /* UIColor.swift in Sources */,
 				DDF7600B1E35077B00951595 /* AppDelegate.swift in Sources */,
 				DDB352F51E37F8BD002FB980 /* HealthClassifyModel.swift in Sources */,
 				DDB352F11E37F2DF002FB980 /* Detail2HealthView.swift in Sources */,
+				DD9FE20F1E38E85C00C60E29 /* InfoDetailViewController.swift in Sources */,
 				DD857E351E36E20F0042BBBB /* NavigationMap.swift in Sources */,
 				DD857E371E36E3BD0042BBBB /* Detail2HealthViewController.swift in Sources */,
 				DDF7604B1E356B0900951595 /* SwiftHEXColors.swift in Sources */,
